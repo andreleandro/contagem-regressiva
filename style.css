@@ -5,11 +5,9 @@
 }
 
 body {
-    background-image: url("img/ano-background.png");
-    background-position: top;
+    background-image: radial-gradient(#06191F, #000);
     font-family: 'Lato', Arial, sans-serif;
-    background-size: cover;
-    color: rgb(233, 236, 3);
+    color: #AFD9DA;
 }
 
 h2 {
@@ -17,6 +15,7 @@ h2 {
     font-weight: bold;
     text-shadow: 0 3px 4px rgb(0, 0, 0);
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .shadow {
@@ -48,7 +47,7 @@ h2 {
     letter-spacing: 2px;
 }
 
-@media (max-width: 807px) {
+@media (max-width: 942px) {
     h2 {
         font-size: 2.5rem;
     }
@@ -61,7 +60,7 @@ h2 {
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 768px) {
     h2 {
         font-size: 2rem;
     }
@@ -74,7 +73,7 @@ h2 {
     }
 }
 
-@media (max-width: 542px) {
+@media (max-width: 629px) {
     h2 {
         font-size: 1rem;
     }
@@ -84,5 +83,26 @@ h2 {
     #minuto,
     #segundo {
         font-size: 2rem;
+    }
+
+    .shadow {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    #dia,
+    #hora,
+    #minuto,
+    #segundo {
+        font-size: 1rem;
+    }
+
+    .shadow {
+        font-size: 0.8rem;
     }
 }
